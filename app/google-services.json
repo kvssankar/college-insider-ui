@@ -1,42 +1,41 @@
 {
   "project_info": {
-    "project_number": "644372285961",
-    "firebase_url": "https://devbytes-d002a.firebaseio.com",
-    "project_id": "devbytes-d002a",
-    "storage_bucket": "devbytes-d002a.appspot.com"
+    "project_number": "87954624082",
+    "project_id": "college-insider",
+    "storage_bucket": "college-insider.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:644372285961:android:8a8ab0611307b96fdc86d8",
+        "mobilesdk_app_id": "1:87954624082:android:97f3d196f61fa88e8f598b",
         "android_client_info": {
-          "package_name": "com.example.devbytes"
+          "package_name": "com.example.collegeinsider"
         }
       },
       "oauth_client": [
         {
-          "client_id": "644372285961-fd005jviqjonrfkuc20u6vup4ve2n50f.apps.googleusercontent.com",
+          "client_id": "87954624082-q3i0gleh167j3tc7jhka301a3lvukc90.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.devbytes",
-            "certificate_hash": "1b8c665cc48255bd02c67abc84666fbf9fc96b82"
+            "package_name": "com.example.collegeinsider",
+            "certificate_hash": "7cc90964b48557bcd4a97adc59454f5dd8880dff"
           }
         },
         {
-          "client_id": "644372285961-pefbjhkksdcaia697si82d2m8a2mki0n.apps.googleusercontent.com",
+          "client_id": "87954624082-3epv5e2u0vrt98evjc8bmm4jkn2c0q5n.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDEZdx4KhvyEZ6icLrbEfla9HvAZ7-DjeM"
+          "current_key": "AIzaSyClj3YdHXhk-rCNsvTgfg9TBCByt3_-YiI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "644372285961-pefbjhkksdcaia697si82d2m8a2mki0n.apps.googleusercontent.com",
+              "client_id": "87954624082-3epv5e2u0vrt98evjc8bmm4jkn2c0q5n.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

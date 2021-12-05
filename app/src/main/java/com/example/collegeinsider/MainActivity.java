@@ -27,7 +27,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 public class MainActivity extends AppCompatActivity{
 
     private Toolbar mainActivityToolbar;
-    private FloatingActionButton addPostBtn,feedBtn;
+    private FloatingActionButton addPostBtn;
     private String current_user_Id;
 
     private FirebaseAuth mAuth;
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity{
             mainActivityToolbar = (Toolbar) findViewById(R.id.mainActivityToolbar);
             setSupportActionBar(mainActivityToolbar);
 
-            getSupportActionBar().setTitle("DevBytes");
+            getSupportActionBar().setTitle("CollegeInsider");
 
             addPostBtn = findViewById(R.id.action_add);
             addPostBtn.setOnClickListener(new View.OnClickListener() {
@@ -88,14 +88,14 @@ public class MainActivity extends AppCompatActivity{
                     startActivity(intent);
                 }
             });
-            feedBtn=findViewById(R.id.action_feed);
-            feedBtn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent=new Intent(MainActivity.this,FeedActivity.class);
-                    startActivity(intent);
-                }
-            });
+//            feedBtn=findViewById(R.id.action_feed);
+//            feedBtn.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    Intent intent=new Intent(MainActivity.this,FeedActivity.class);
+//                    startActivity(intent);
+//                }
+//            });
 
         }
 

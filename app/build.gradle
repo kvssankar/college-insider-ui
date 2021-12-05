@@ -9,7 +9,7 @@ android {
         vectorDrawables{
             useSupportLibrary true
         }
-        applicationId "com.example.devbytes"
+        applicationId "com.example.collegeinsider"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
