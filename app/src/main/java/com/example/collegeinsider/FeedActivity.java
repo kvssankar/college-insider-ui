@@ -48,8 +48,7 @@ public class FeedActivity extends AppCompatActivity  {
         techUpdate = new ArrayList<>();
         RequestQueue requestQueue= Volley.newRequestQueue(FeedActivity.this);
 
-        String api="https://devbytes-api.herokuapp.com/data";
-//        String api="https://randomuser.me/api";
+        String api="https://fathomless-cliffs-16396.herokuapp.com/data";
 
         JsonArrayRequest objectRequest= new JsonArrayRequest(Request.Method.GET, api, null, new Response.Listener<JSONArray>() {
             @Override

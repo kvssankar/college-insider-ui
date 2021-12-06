@@ -57,7 +57,7 @@ public class CreatePost extends AppCompatActivity {
         createPostToolbar=(Toolbar) findViewById(R.id.createPostToolbar);
         setSupportActionBar(createPostToolbar);
 
-        getSupportActionBar().setTitle("Post a Byte");
+        getSupportActionBar().setTitle("Post a Insider");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         new_postImage=findViewById(R.id.newpostImage);
