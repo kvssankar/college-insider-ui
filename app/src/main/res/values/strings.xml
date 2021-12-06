@@ -19,7 +19,7 @@
     <string name="post_btn">Post</string>
     <string name="cardViewTitle">Card View Layout</string>
     <string name="title_feed">Feed</string>
-    <string name="title_bytes">Bytes</string>
+    <string name="title_bytes">News</string>
     <string name="title_notification">Notifications</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

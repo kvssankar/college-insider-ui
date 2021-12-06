@@ -27,7 +27,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 public class MainActivity extends AppCompatActivity{
 
     private Toolbar mainActivityToolbar;
-    private FloatingActionButton addPostBtn;
+    private FloatingActionButton addPostBtn, feedBtn;
     private String current_user_Id;
 
     private FirebaseAuth mAuth;
@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity{
     private BottomNavigationView bottomNavigationView;
 
     private PostsFragment postsFragment;
-    private  NotificationFragment notificationFragment;
 
 
     @Override
@@ -56,7 +55,6 @@ public class MainActivity extends AppCompatActivity{
             bottomNavigationView = findViewById(R.id.bottomNavigationView);
             //Fragments
             postsFragment = new PostsFragment();
-            notificationFragment = new NotificationFragment();
             replaceFragment(postsFragment);
             bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
                 @Override
@@ -64,10 +62,6 @@ public class MainActivity extends AppCompatActivity{
                     switch (item.getItemId()) {
                         case R.id.bottom_nav_bytes:
                             replaceFragment(postsFragment);
-                            return true;
-
-                        case R.id.bottom_nav_notif:
-                            replaceFragment(notificationFragment);
                             return true;
                         default:
                             return false;
@@ -88,14 +82,14 @@ public class MainActivity extends AppCompatActivity{
                     startActivity(intent);
                 }
             });
-//            feedBtn=findViewById(R.id.action_feed);
-//            feedBtn.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    Intent intent=new Intent(MainActivity.this,FeedActivity.class);
-//                    startActivity(intent);
-//                }
-//            });
+            feedBtn=findViewById(R.id.action_feed);
+            feedBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent=new Intent(MainActivity.this,FeedActivity.class);
+                    startActivity(intent);
+                }
+            });
 
         }
 

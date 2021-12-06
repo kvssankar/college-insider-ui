@@ -7,9 +7,9 @@
         android:icon="@drawable/ic_bottom_nav_bytes"
         android:title="@string/title_bytes"
         app:showAsAction="always" />
-    <item
-        android:id="@+id/bottom_nav_notif"
-        android:icon="@drawable/ic_card_account"
-        android:title="@string/title_notification"
-        app:showAsAction="always" />
+<!--    <item-->
+<!--        android:id="@+id/bottom_nav_notif"-->
+<!--        android:icon="@drawable/ic_card_account"-->
+<!--        android:title="@string/title_notification"-->
+<!--        app:showAsAction="always" />-->
 </menu>

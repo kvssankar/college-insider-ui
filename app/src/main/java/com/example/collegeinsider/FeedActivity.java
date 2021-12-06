@@ -42,7 +42,7 @@ public class FeedActivity extends AppCompatActivity  {
         feedActivityToolbar=(Toolbar) findViewById(R.id.feedActivityToolbar);
         setSupportActionBar(feedActivityToolbar);
 
-        getSupportActionBar().setTitle("Tech Feed");
+        getSupportActionBar().setTitle("College News");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         techUpdate = new ArrayList<>();
